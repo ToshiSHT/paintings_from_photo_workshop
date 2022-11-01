@@ -1262,12 +1262,7 @@ h4 {
   .paints {
     display: none;
   }
-  .calc .file_upload > div {
-    display: none;
-  }
-  .calc .file_upload > button {
-    width: 100%;
-  }
+
   .popup-design .file_upload > div {
     display: none;
   }
@@ -1282,6 +1277,12 @@ h4 {
   }
 }
 @media (max-width: 1199px) {
+  .calc .file_upload > div {
+    display: none;
+  }
+  .calc .file_upload > button {
+    width: 100%;
+  }
   .fixed-gift {
     display: none;
   }

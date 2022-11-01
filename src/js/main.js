@@ -6,6 +6,7 @@ import checkTextInputs  from "./modules/checkTextInputs";
 import showMoreStyles from "./modules/showMoreStyles";
 import calc from "./modules/calc";
 import changeCalcState from "./modules/changeCalcState";
+import filter from "./modules/filter";
 
 window.addEventListener('DOMContentLoaded', () => {
     let arr = {};
@@ -18,5 +19,7 @@ window.addEventListener('DOMContentLoaded', () => {
     showMoreStyles('.button-styles', '#styles .row');
     calc('#size', '#material', '#options','.promocode','.calc-price');
     changeCalcState(arr);
+    filter();
+
 
 });
